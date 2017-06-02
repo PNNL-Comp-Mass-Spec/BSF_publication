@@ -64,5 +64,9 @@ These files contain the raw data of the Supplementary Figure 2. Niclosamide is o
 The actual image for figure 3 was created using a custom javascript based on vis.js using the above files.
 
 ## KEGG Genome similarity - Figure 4
-This excel file contains the raw data of the Figure 4, which shows the average number of shared genes between a genome and other genomes within its taxonomic group.
-- file_S3_kegg_taxa_group.xlsx: 
+In the manuscript, we perform a whole genome similarity for all pairs of genomes annotated by KEGG, which is Figure 4, showing the average number of shared genes between a genome and other genomes within its taxonomic group. Data and code to create the figures is found in the following:
+- ~/kegg_data/Kegg_ko_org_matrix.txt - auxiliary data file for the iPython notebook
+- ~/kegg_data/Kegg_ko_org_matrix_cols_index.txt - auxiliary data file for the iPython notebook
+- ~/kegg_data/Kegg_ko_org_matrix_rows_index.txt - auxiliary data file for the iPython notebook
+- ~/kegg_data/figure_4ab_bsf-kegg.ipynb - iPython notebook used to create figures 4a and 4b
+- ~/kegg_data/figure_4c_bsf-kegg.ipynb - iPython notebook used to create figure 4c
