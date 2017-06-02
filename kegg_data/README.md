@@ -10,7 +10,7 @@ To run, download the file and in the command prompt
 java -jar BSF_Kegg.jar
 ```
 ## Kegg data files
-### Kegg_ko_path_matrix.txt
+<!--### Kegg_ko_path_matrix.txt
 The matrix of found KOs in pathways represented by zero(not found) or one(found).
 Example
 ```
@@ -24,7 +24,7 @@ Example
 ### Kegg_ko_path_matrix_rows_index.txt
 A file that lists the KOs in the matrix, line number is the index found in the matrix.
 ### Kegg_ko_path_matrix_columns_index.txt
-A file that lists the pathways in the matrix, line number is the index found in the matrix.
+A file that lists the pathways in the matrix, line number is the index found in the matrix.-->
 ### Kegg_ko_org_matrix.txt
 The matrix of found KOs in organisms represented by zero(not found) or one(found).
 
