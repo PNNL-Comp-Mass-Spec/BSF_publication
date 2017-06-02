@@ -1,11 +1,11 @@
 # BSF_publication
 All the data and materials for the publication about the Blazing Signature Filter. We have deposited here both the data and the code for various figures in the manuscript.
 
-Figure 2 - the benchmarking time trial for BSF versus
-Figure 3 - subnetwork for HDAC inhibitors
-Figure 4 - whole genome similarity comparisons.
-Figure S1 - LINCS pairwise similarity plot
-Figure S2 - subnetwork for Niclosamide
+* Figure 2 - the benchmarking time trial for BSF versus
+* Figure 3 - subnetwork for HDAC inhibitors
+* Figure 4 - whole genome similarity comparisons.
+* Figure S1 - LINCS pairwise similarity plot
+* Figure S2 - subnetwork for Niclosamide
 
 
 ## Binarized LINCS L1000 Dataset.
