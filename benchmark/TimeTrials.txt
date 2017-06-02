@@ -1,0 +1,155 @@
+Test 1:
+==================OPENMP====================
+bits: 1000 =================================
+original gcc popcountll 5335.234200 msec,       Sum     1021579025.000000
+adjusted popcountll     6115.239200 msec,       Sum     1021579025.000000
+tanimoto        7269.646600 msec,       Sum     6865657.910338
+cosine  319034.841900 msec,     Sum     -231.155781
+euclidean       122788.387100 msec,     Sum     2514827639.027687
+bits: 4000 =================================
+original gcc popcountll 21169.335700 msec,      Sum     1431394136.000000
+adjusted popcountll     28672.983800 msec,      Sum     1431394136.000000
+tanimoto        30529.395700 msec,      Sum     6867467.207266
+cosine  1223281.841500 msec,    Sum     103.749399
+euclidean       432559.572800 msec,     Sum     5030604106.216221
+bits: 8000 =================================
+original gcc popcountll 32463.808100 msec,      Sum     1501887636.000000
+adjusted popcountll     48875.113300 msec,      Sum     1501887636.000000
+tanimoto        57720.370000 msec,      Sum     6866206.331068
+cosine  2430394.835700 msec,    Sum     71.304713
+euclidean       843981.924700 msec,     Sum     7114691289.450768
+bits: 12000 =================================
+original gcc popcountll 38189.044800 msec,      Sum     -1346331272.000000
+adjusted popcountll     59810.783400 msec,      Sum     -1346331272.000000
+tanimoto        78936.506000 msec,      Sum     6867207.857117
+cosine  3637506.517200 msec,    Sum     38.668694
+euclidean       1259458.473400 msec,    Sum     8713807818.183512
+bits: 16000 =================================
+original gcc popcountll 42369.871600 msec,      Sum     -1275738554.000000
+adjusted popcountll     71261.256800 msec,      Sum     -1275738554.000000
+tanimoto        99856.240100 msec,      Sum     6867308.649432
+cosine  4848916.682600 msec,    Sum     31.420325
+euclidean       1674124.731500 msec,    Sum     10061884234.931938
+bits: 20000 =================================
+original gcc popcountll 45879.894100 msec,      Sum     94070591.000000
+adjusted popcountll     81713.323800 msec,      Sum     94070591.000000
+tanimoto        121618.379600 msec,     Sum     6867041.694467
+cosine  6048361.571300 msec,    Sum     10.340748
+euclidean       2077855.319500 msec,    Sum     11249271806.995411
+
+TEST 2:
+==================OPENMP====================
+bits: 1000 =================================
+original gcc popcountll 7566.048500 msec,       Sum     1021579025.000000
+adjusted popcountll     8486.454400 msec,       Sum     1021579025.000000
+tanimoto        7332.047000 msec,       Sum     6865657.910338
+cosine  319131.245700 msec,     Sum     -231.155781
+euclidean       122928.788000 msec,     Sum     2514827639.027687
+bits: 4000 =================================
+original gcc popcountll 23134.948300 msec,      Sum     1431394136.000000
+adjusted popcountll     30591.796100 msec,      Sum     1431394136.000000
+tanimoto        30591.796100 msec,      Sum     6867467.207266
+cosine  1224607.850000 msec,    Sum     103.749399
+euclidean       432918.375100 msec,     Sum     5030604106.216221
+bits: 8000 =================================
+original gcc popcountll 33633.815600 msec,      Sum     1501887636.000000
+adjusted popcountll     49967.120300 msec,      Sum     1501887636.000000
+tanimoto        57751.570200 msec,      Sum     6866206.331068
+cosine  2431323.804000 msec,    Sum     71.304713
+euclidean       844467.011500 msec,     Sum     7114691289.450768
+bits: 12000 =================================
+original gcc popcountll 38454.246500 msec,      Sum     -1346331272.000000
+adjusted popcountll     60044.784900 msec,      Sum     -1346331272.000000
+tanimoto        78983.306300 msec,      Sum     6867207.857117
+cosine  3640018.133300 msec,    Sum     38.668694
+euclidean       1264122.903300 msec,    Sum     8713807818.183512
+bits: 16000 =================================
+original gcc popcountll 42182.670400 msec,      Sum     -1275738554.000000
+adjusted popcountll     71027.255300 msec,      Sum     -1275738554.000000
+tanimoto        99981.040900 msec,      Sum     6867308.649432
+cosine  4852925.908300 msec,    Sum     31.420325
+euclidean       1674015.530800 msec,    Sum     10061884234.931938
+bits: 20000 =================================
+original gcc popcountll 45458.691400 msec,      Sum     94070591.000000
+adjusted popcountll     81479.322300 msec,      Sum     94070591.000000
+tanimoto        121649.579800 msec,     Sum     6867041.694467
+cosine  6052230.396100 msec,    Sum     10.340748
+euclidean       2079555.730400 msec,    Sum     11249271806.995411
+
+TEST 3:
+==================OPENMP====================
+bits: 1000 =================================
+original gcc popcountll 6373.637300 msec,       Sum     1021579025.000000
+adjusted popcountll     7481.748100 msec,       Sum     1021579025.000000
+tanimoto        8240.824000 msec,       Sum     6865657.910338
+cosine  318898.952400 msec,     Sum     -231.155781
+euclidean       122694.786500 msec,     Sum     2514827639.027687
+bits: 4000 =================================
+original gcc popcountll 21247.336200 msec,      Sum     1431394136.000000
+adjusted popcountll     28766.584400 msec,      Sum     1431394136.000000
+tanimoto        30638.596400 msec,      Sum     6867467.207266
+cosine  1223734.244400 msec,    Sum     103.749399
+euclidean       432200.770500 msec,     Sum     5030604106.216221
+bits: 8000 =================================
+original gcc popcountll 32432.607900 msec,      Sum     1501887636.000000
+adjusted popcountll     48828.313000 msec,      Sum     1501887636.000000
+tanimoto        57767.170300 msec,      Sum     6866206.331068
+cosine  2429450.373300 msec,    Sum     71.304713
+euclidean       842982.603700 msec,     Sum     7114691289.450768
+bits: 12000 =================================
+original gcc popcountll 38267.045300 msec,      Sum     -1346331272.000000
+adjusted popcountll     59919.984100 msec,      Sum     -1346331272.000000
+tanimoto        78920.905900 msec,      Sum     6867207.857117
+cosine  3639284.928600 msec,    Sum     38.668694
+euclidean       1257180.858800 msec,    Sum     8713807818.183512
+bits: 16000 =================================
+original gcc popcountll 42260.670900 msec,      Sum     -1275738554.000000
+adjusted popcountll     70824.454000 msec,      Sum     -1275738554.000000
+tanimoto        99918.640500 msec,      Sum     6867308.649432
+cosine  4842916.384200 msec,    Sum     31.420325
+euclidean       1671715.607400 msec,    Sum     10061884234.931938
+bits: 20000 =================================
+original gcc popcountll 46431.642700 msec,      Sum     94070591.000000
+adjusted popcountll     81727.171900 msec,      Sum     94070591.000000
+tanimoto        121631.928400 msec,     Sum     6867041.694467
+cosine  6039703.515800 msec,    Sum     10.340748
+euclidean       2075468.504200 msec,    Sum     11249271806.995411
+
+TEST 4:
+==================OPENMP====================
+bits: 1000 =================================
+original gcc popcountll 5531.553100 msec,       Sum     1021579025.000000
+adjusted popcountll     6190.619000 msec,       Sum     1021579025.000000
+tanimoto        7288.728800 msec,       Sum     6865657.910338
+cosine  318304.630200 msec,     Sum     -231.155781
+euclidean       122585.585800 msec,     Sum     2514827639.027687
+bits: 4000 =================================
+original gcc popcountll 21247.336200 msec,      Sum     1431394136.000000
+adjusted popcountll     28735.384200 msec,      Sum     1431394136.000000
+tanimoto        30482.595400 msec,      Sum     6867467.207266
+cosine  1222626.637300 msec,    Sum     103.749399
+euclidean       432372.371600 msec,     Sum     5030604106.216221
+bits: 8000 =================================
+original gcc popcountll 32510.608400 msec,      Sum     1501887636.000000
+adjusted popcountll     48797.112800 msec,      Sum     1501887636.000000
+tanimoto        57782.770400 msec,      Sum     6866206.331068
+cosine  2429434.313400 msec,    Sum     71.304713
+euclidean       842998.203800 msec,     Sum     7114691289.450768
+bits: 12000 =================================
+original gcc popcountll 38298.245500 msec,      Sum     -1346331272.000000
+adjusted popcountll     59857.583700 msec,      Sum     -1346331272.000000
+tanimoto        78983.306300 msec,      Sum     6867207.857117
+cosine  3637756.118800 msec,    Sum     38.668694
+euclidean       1257446.060500 msec,    Sum     8713807818.183512
+bits: 16000 =================================
+original gcc popcountll 42260.670900 msec,      Sum     -1275738554.000000
+adjusted popcountll     71214.456500 msec,      Sum     -1275738554.000000
+tanimoto        99840.640000 msec,      Sum     6867308.649432
+cosine  4846171.065000 msec,    Sum     31.420325
+euclidean       1673703.528800 msec,    Sum     10061884234.931938
+bits: 20000 =================================
+original gcc popcountll 45786.293500 msec,      Sum     94070591.000000
+adjusted popcountll     81604.123100 msec,      Sum     94070591.000000
+tanimoto        121493.578800 msec,     Sum     6867041.694467
+cosine  6040998.324100 msec,    Sum     10.340748
+euclidean       2076778.912600 msec,    Sum     11249271806.995411
