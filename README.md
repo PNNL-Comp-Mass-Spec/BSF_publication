@@ -15,7 +15,7 @@ To demonstrate the speed of the Blazing Signature Filter, we performed a benchma
 - ~/benchmark/ParseTimeTrials.py - auxiliary python code used by the notebook
 
 
-## Binarized LINCS L1000 Dataset - Figure S1
+## LINCS L1000 Dataset - Figure S1
 We extract the information of differentially expressed genes identified by characteristic direction method. We download the mongo DB (<http://amp.pharm.mssm.edu/public/L1000CDS_download/>). These raw files were converted prior to input in the BSF; the data are gzipped and consist of a matrix with 64-bit unsigned integers. It has 22,268 genes by 117,373 signatures. It is used to generate Supplementary Figure 1 of the BSF paper.
 - file_S1a_lincs_dn.bin.gz: It contains the down-regulated genes of LINCS L1000 CDS2. 
 - file_S1b_lincs_up.bin.gz: It contains the up-regulated genes of LINCS L1000 CDS2. 
