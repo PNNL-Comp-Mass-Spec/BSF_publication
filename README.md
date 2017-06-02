@@ -8,6 +8,13 @@ All the data and materials for the publication about the Blazing Signature Filte
 * Figure S2 - subnetwork for Niclosamide
 
 
+## Benchmarking the BSF - Figure 2
+To demonstrate the speed of the Blazing Signature Filter, we performed a benchmark test of BSF, cosine similarity and Euclidean distance using a synthetic dataset mimicking gene expression measurements. Uploaded into this repository is the console output from that time trials (timetrials.txt) and then some python code to parse that output and make a chart (Figure_2.ipynb and ParseTimeTrials.py).
+
+The synthetic data was created as a table (15K columns x 20K rows) of floating point numbers drawn randomly from the gaussian distribution of N(0, 0.5). Rows can be thought of as different gene measurements, and columns as distinct datasets. This continuous data was binarized into two tables to represent the extremes of the distribution, i.e. values < -0.6 were written as 1 in a binary table representing the ‘low’ values and values > 0.6 were written as 1 to a binary table representing high values.
+
+We performed the full pairwise comparison of all 15k columns versus each other on a single CPU (Intel Core i7-3770, Ivy Bridge). To characterize the time-dependence of each algorithm on the length of the signature, we tested each algorithm with a different number of rows ranging from 2000 to 20,000. This is essential to understanding the utility of each algorithm, as different applications may contain highly variable signature lengths. The total number of comparisons done is about 225 million. Because for each pair (i,j) of columns, we perform the comparison of both the up and down matrix. Since these results are symmetric, that amounts to 15,000 * 15,000 /2 (for symmetric) * 2 (for up and down matrix).
+
 ## Binarized LINCS L1000 Dataset.
 We extract the information of differentially expressed genes identified by characteristic direction method. We download the mongo DB and fetch this information. Please refer to <http://amp.pharm.mssm.edu/public/L1000CDS_download/>.
 Both of these files are gzipped and consist of a matrix with 64-bit unsigned integers. It has 22,268 genes by 117,373 signatures. It is used to generate Supplementary Figure 1 of the BSF paper.
