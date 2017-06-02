@@ -9,7 +9,10 @@ All the data and materials for the publication about the Blazing Signature Filte
 
 
 ## Benchmarking the BSF - Figure 2
-To demonstrate the speed of the Blazing Signature Filter, we performed a benchmark test of BSF, cosine similarity and Euclidean distance using a synthetic dataset mimicking gene expression measurements. Uploaded into this repository is the console output from that time trials (timetrials.txt) and then some python code to parse that output and make a chart (Figure_2.ipynb and ParseTimeTrials.py).
+To demonstrate the speed of the Blazing Signature Filter, we performed a benchmark test of BSF, cosine similarity and Euclidean distance using a synthetic dataset mimicking gene expression measurements. 
+- timetrials.txt: the console output of the time trial
+- Figure_2.ipynb: the ipython notebook used to make figure 2
+- ParseTimeTrials.py - auxiliary python code used by the notebook
 
 The synthetic data was created as a table (15K columns x 20K rows) of floating point numbers drawn randomly from the gaussian distribution of N(0, 0.5). Rows can be thought of as different gene measurements, and columns as distinct datasets. This continuous data was binarized into two tables to represent the extremes of the distribution, i.e. values < -0.6 were written as 1 in a binary table representing the ‘low’ values and values > 0.6 were written as 1 to a binary table representing high values.
 
