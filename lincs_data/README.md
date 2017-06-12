@@ -46,4 +46,4 @@ These files contain the raw data of the Supplementary Figure 2. Niclosamide is o
 - ~/lincs_data/file_S4a_nonhuman_lincs_signatures.txt (tab-delimited): It contains a list of signatures perturbed by the non-human medications.
 - ~/lincs_data/file_S4b_nonhuman_lincs_top_edges.txt (tab-delimited): It contains top 20,000 similar pairs linked to signatures of (a).
 
-The actual image for figure 3 was created using a custom javascript based on vis.js using the above files.
+The actual image for figure S2 was created using a custom javascript based on vis.js using the above files.
