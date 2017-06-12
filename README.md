@@ -21,8 +21,8 @@ In the manuscript, we compare the gene expression patterns of data from the LINC
 - ~/lincs_data/fig_s1_lincs_results.ipynb - the iPython notebook for figure S1
 - ~/lincs_data/file_S1a_lincs_dn.bin.gz	- data for figure S1
 - ~/lincs_data/file_S1b_lincs_up.bin.gz	- data for figure S1
-- ~/lincs_data/file_S2a_HDAC_lincs_signatures.txt	- data for figure 3
-- ~/lincs_data/file_S2b_HDAC_lincs_top_edges.txt - data for figure 3
+- ~/lincs_data/file_3a_HDAC_lincs_signatures.txt	- data for figure 3
+- ~/lincs_data/file_3b_HDAC_lincs_top_edges.txt - data for figure 3
 - ~/lincs_data/file_S4a_nonhuman_lincs_signatures.txt	- data for figure S2
 - ~/lincs_data/file_S4b_nonhuman_lincs_top_edges.txt - data for figure S2
 
