@@ -20,7 +20,7 @@ t = np.frombuffer(input_file.read(), dtype=np.uint64).reshape((nrows, ncols))
 
 ## L1000 signatures associated to HDAC inhibitors - Figure 3
 Data used to generate Figure 3.
-- ~/lincs_data/file_S2a_HDAC_lincs_signatures.txt (tab-delimited): It contains a list of signatures perturbed by the well-known 9 HDAC inhibitors.
+- ~/lincs_data/file_3a_HDAC_lincs_signatures.txt (tab-delimited): It contains a list of signatures perturbed by the well-known 9 HDAC inhibitors.
 
 | Header | Description |
 | ------------ | ------------- |
@@ -37,7 +37,7 @@ Data used to generate Figure 3.
 | dnGenesSize | The number of down-regulated genes in this signature. |
 | upGenesSize| The number of up-regulated genes in this signature. |
 * Note: Please refer to this [link](https://docs.google.com/document/d/1q2gciWRhVCAAnlvF2iRLuJ7whrGP6QjpsCMq1yWz7dU/edit) for more details.
-- ~/lincs_data/file_S2b_HDAC_lincs_top_edges.txt (tab-delimited): Among 6.3 million pairs, it provides top 20,000 similar pairs.
+- ~/lincs_data/file_3b_HDAC_lincs_top_edges.txt (tab-delimited): Among 6.3 million pairs, it provides top 20,000 similar pairs.
 
 The actual image for figure 3 was created using a custom javascript based on vis.js using the above files.
 
