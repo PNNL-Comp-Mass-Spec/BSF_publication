@@ -3,7 +3,7 @@ All the data and materials for the publication about the Blazing Signature Filte
 
 - Figure 2 - the benchmarking time trial for BSF versus
 - Figure 3 - subnetwork for HDAC inhibitors
-- Figure 4 - whole genome similarity comparisons.
+- Figure 4, 5, 6 - whole genome similarity comparisons.
 - Figure S1 - LINCS pairwise similarity plot
 - Figure S2 - subnetwork for Niclosamide
 
@@ -26,10 +26,10 @@ In the manuscript, we compare the gene expression patterns of data from the LINC
 - ~/lincs_data/file_S2a_nonhuman_lincs_signatures.txt	- data for figure S2
 - ~/lincs_data/file_S2b_nonhuman_lincs_top_edges.txt - data for figure S2
 
-## KEGG Genome similarity - Figure 4
-In the manuscript, we perform a whole genome similarity for all pairs of genomes annotated by KEGG, which is Figure 4, showing the average number of shared genes between a genome and other genomes within its taxonomic group. Data and code to create the figures is found in the following:
+## KEGG Genome similarity - Figure 4, 5, 6
+In the manuscript, we perform a whole genome similarity for all pairs of genomes annotated by KEGG, which is Figure 4-6, showing the average number of shared genes between a genome and other genomes within its taxonomic group. Data and code to create the figures is found in the following:
 - ~/kegg_data/Kegg_ko_org_matrix.txt - auxiliary data file for the iPython notebook
 - ~/kegg_data/Kegg_ko_org_matrix_cols_index.txt - auxiliary data file for the iPython notebook
 - ~/kegg_data/Kegg_ko_org_matrix_rows_index.txt - auxiliary data file for the iPython notebook
-- ~/kegg_data/figure_4ab_bsf-kegg.ipynb - iPython notebook used to create figures 4a and 4b
-- ~/kegg_data/figure_4c_bsf-kegg.ipynb - iPython notebook used to create figure 4c
+- ~/kegg_data/figure_4_5_bsf-kegg.ipynb - iPython notebook used to create figures 4 and 5
+- ~/kegg_data/figure_6_bsf-kegg.ipynb - iPython notebook used to create figure 6
