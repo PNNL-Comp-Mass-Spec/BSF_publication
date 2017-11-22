@@ -33,3 +33,15 @@ In the manuscript, we perform a whole genome similarity for all pairs of genomes
 - ~/kegg_data/Kegg_ko_org_matrix_rows_index.txt - auxiliary data file for the iPython notebook
 - ~/kegg_data/figure_4_5_bsf-kegg.ipynb - iPython notebook used to create figures 4 and 5
 - ~/kegg_data/figure_6_bsf-kegg.ipynb - iPython notebook used to create figure 6
+
+## Contacts
+
+Written by Joon Yong Lee for the Department of Energy (PNNL, Richland, WA) \
+E-mail: proteomics@pnnl.gov \
+Website: https://panomics.pnl.gov/ or https://omics.pnl.gov
+
+## License
+
+Licensed under the Apache License, Version 2.0; 
+you may not use this file except in compliance with the License.  You may obtain 
+a copy of the License at https://opensource.org/licenses/Apache-2.0
