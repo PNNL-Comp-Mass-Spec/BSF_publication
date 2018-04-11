@@ -1,10 +1,9 @@
 """ 
 1. test a correlation between cosine distance and BSF scores
-python benchmark.py --data GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06_1000.npy --num_sets 500 --cutoff 2.5
-python benchmark.py --data ProteinMatrix_20x15k.npy --num_sets 500 --cutoff 0.6
+python test.py --data GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06_500.npy --num_sets 500 --cutoff 2.5
 
 2. test a binarization from a continous numeric matrix into a binarized matrix to fit to BSF
-python benchmark.py --data GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06_1000.npy --num_sets 500 --cutoff 2.5 --binarizeonly
+python test.py --data GSE70138_Broad_LINCS_Level5_COMPZ_n118050x12328_2017-03-06_500.npy --num_sets 500 --cutoff 2.5 --binarizeonly
 """
 import sys
 import numpy as np
