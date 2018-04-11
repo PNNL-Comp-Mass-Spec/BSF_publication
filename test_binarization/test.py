@@ -16,11 +16,11 @@ import bsf
 import scipy.spatial
 import scipy.stats as stats
 
-import matplotlib.pyplot as plt
 ### if you want to run this script in an interactive mode,
-### please comment the following three lines out and run this code.
+### please uncomment the following three commented lines and run this code.
 # import matplotlib as mpl
 # mpl.use('Agg')
+import matplotlib.pyplot as plt
 # plt.ioff() #http://matplotlib.org/faq/usage_faq.html (interactive mode)
 
 import argparse
@@ -173,7 +173,7 @@ if __name__ == '__main__':
     up = binerize_by_cutoff(mat, FLAGS.cutoff, 1)
     dn = binerize_by_cutoff(mat, -FLAGS.cutoff, 0)
     etime = time.time()
-    print('Time binerize_by_cutoff:{0} sec'.format(etime-stime))
+    print('Time binerize_by_cutoff:{0} msec/signature'.format(1000*(etime-stime)/n_sets))
     print('up %:', np.sum(mat>FLAGS.cutoff)/(mat.shape[0]*mat.shape[0]))
     print('dn %:', np.sum(mat<-FLAGS.cutoff)/(mat.shape[0]*mat.shape[0]))
 
